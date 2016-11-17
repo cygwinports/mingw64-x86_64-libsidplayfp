@@ -1,0 +1,15 @@
+CROSS_HOST="x86_64-w64-mingw32"
+inherit cross
+
+NAME="mingw64-x86_64-libsidplayfp"
+VERSION=1.8.6
+RELEASE=1
+CATEGORY="Devel"
+SUMMARY="C64 music player library for Win64 toolchain"
+DESCRIPTION="libsidplayfp is a fork of LIBSIDPLAY2, a C64 music player library
+which integrates the reSID SID chip emulation into a cycle-based emulator
+environment, started with primary purpose to improve emulation of the C64 system
+and the SID chips."
+HOMEPAGE="http://sourceforge.net/projects/sidplay-residfp/"
+SRC_URI="mirror://sourceforge/sidplay-residfp/libsidplayfp-${VERSION}.tar.gz"
+SRC_DIR="libsidplayfp-${VERSION}"
