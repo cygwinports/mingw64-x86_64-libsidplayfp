@@ -2,7 +2,7 @@ CROSS_HOST="x86_64-w64-mingw32"
 inherit cross
 
 NAME="mingw64-x86_64-libsidplayfp"
-VERSION=1.8.6
+VERSION=1.8.7
 RELEASE=1
 CATEGORY="Devel"
 SUMMARY="C64 music player library for Win64 toolchain"
